@@ -1,0 +1,24 @@
+<h2 mat-dialog-title>Create Task</h2>
+<div mat-dialog-content>
+  <form class="container">
+    <mat-form-field class="task">
+      <input matInput placeholder="Title" name="title" [(ngModel)]="data.title" />
+      <mat-hint>Drag and Drop project</mat-hint>
+    </mat-form-field>
+    <mat-form-field class="description">
+      <textarea matInput placeholder="Content" name="content" [(ngModel)]="data.content"></textarea>
+      <mat-hint>Working on designing part...</mat-hint>
+    </mat-form-field>
+  </form>
+</div>
+
+<div class="btn">
+  <mat-dialog-actions>
+    <button mat-raised-button class="btn1" (click)="savedialog()" mat-dialog-save>
+      Save
+    </button>
+    <button mat-rasied-button class="btn2" (click)="closedialog()" mat-dialog-close>
+      Cancel
+    </button>
+  </mat-dialog-actions>
+</div>

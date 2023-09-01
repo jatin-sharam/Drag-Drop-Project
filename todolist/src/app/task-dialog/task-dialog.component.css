@@ -1,0 +1,33 @@
+/* .container{
+   display: flex;
+   flex-direction: column;
+    text-align: center;
+} */
+.task{
+    width: 100%;
+}
+.description{
+    width: 100%;
+}
+
+.btn{
+  justify-content: space-evenly;
+    margin-left: 117px;
+    border-style: none;
+}
+
+.btn1{
+    margin-right: 20px;
+    border-style: none;
+    width: 70px;
+    height: 40px;
+
+}
+
+.btn2{
+    margin-right: 20px;
+    border-style: none;
+    width: 70px;
+    height: 40px;
+ 
+}
